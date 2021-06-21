@@ -25,7 +25,7 @@ import styled from 'styled-components';
 //   font-weight: bold;
 // `
 
-const Container = styled.div `
+export const Container = styled.div `
   body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
@@ -78,4 +78,3 @@ const Container = styled.div `
   }
 
 `
-export { Container };
