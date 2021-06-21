@@ -1,7 +1,5 @@
-import { Square } from './square';
+import { Square, squareValues } from './square';
 import { Container } from '../styles';
-
-type squareValues = 'X' | 'O' | null;
 
 interface BoardProps {
   onClick(i: number): void;

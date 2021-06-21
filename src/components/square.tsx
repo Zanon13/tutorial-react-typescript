@@ -1,6 +1,6 @@
 import { Container } from '../styles';
 
-type squareValues = 'X' | 'O' | null;
+export type squareValues = 'X' | 'O' | null;
 
 interface SquareProps {
   value: squareValues;
